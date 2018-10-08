@@ -1,0 +1,22 @@
+{
+  "name": "online-classroom",
+  "version": "1.0.0",
+  "description": "This is an app that will enable teachers to maintain contact with their student keep track of their student and transfer required files to there student",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "chinedu  ifediorah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1",
+    "multer": "^1.3.1",
+    "nodemon": "^1.18.4",
+    "socketio": "^1.0.0"
+  }
+}
